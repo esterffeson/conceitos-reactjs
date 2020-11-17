@@ -15,7 +15,7 @@ function App() {
     async function handleAddRepository() {
         const response = await api.post('repositories', { 
           title: 'Add a repository',
-          url: 'esterffeson.github.io',
+          url: 'https://esterffeson.github.io',
           techs: ['Node.js', 'ReactJS']
         })
 
